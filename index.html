@@ -27,11 +27,12 @@
 <div>
   <p>This is a paragraph inside a div.
 <!-- Console warning: Unclosed tag -->
- <!-- BUG FIXED -> missing div closing tag, added a </div>. -->
+ <!-- BUG FIXED -> Missing div closing tag, added a </div>. -->
   </div>
 <!-- Incorrect: style attribute missing quotation marks -->
-<p style: color: red;>This text is red.</p>
+<p style="color: red;">This text is red.</p>
 <!-- Console error: Invalid or unexpected token -->
+ <!-- BUG FIXED -> style was missing "" and had : insted of =, changed from (style: color: red;) to (style="color: red;") -->
 
 <!-- React-specific issue with incorrect attribute name -->
 <div clss="container">Hello World</div>
