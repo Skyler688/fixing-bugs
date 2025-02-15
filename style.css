@@ -16,7 +16,8 @@ h1 {
   width: 500px;
   height: 500px;
   /* background should be the same as #output */
-  background-color: #f3SupeCoolColor;
+  background-color: #f0f0f0;
+  /* BUG FIXED -> background set to invalid color (#f3SupeCoolColor) changed to mach #output (#f0f0f0). */
 }
 
 #output {
