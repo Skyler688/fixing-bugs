@@ -26,7 +26,8 @@ h1 {
   font-weight: bold;
   text-align: center;
   margin-top: 20px;
-  pudding: 10px;
+  padding: 10px;
+  /* BUG FIXED -> padding misspelled was (pudding). */
   border: 1px solid #000;
   background-color: #f0f0f0;
 }
