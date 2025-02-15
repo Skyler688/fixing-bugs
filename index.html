@@ -6,7 +6,7 @@
     <!-- Incorrect: Incorrect file path -->
     <link rel="stylesheet" href="style.css">
     <!-- Console error: Failed to load resource: net::ERR_FILE_NOT_FOUND -->
-    <!-- Link to CSS file dose not match actual file name, changed it from (styles/missing-file.css) to (style.css) -->
+    <!-- BUG FIXED -> Link to CSS file dose not match actual file name, changed it from (styles/missing-file.css) to (style.css) -->
 
     <title>Debugging 101</title>
   </head>
@@ -14,7 +14,7 @@
 
 
 <!-- Look at the name of this class, is it in the CSS File? -->
- <!-- Spelling error did not match the name on style.css, was (contianer) changed to (container). -->
+ <!-- BUG FIXED -> Spelling error did not match the name on style.css, was (contianer) changed to (container). -->
     <div class="container">
       <h1>Welcome to Debugging 101!</h1>
      Let's learn how to debug our code.</p>
@@ -27,7 +27,8 @@
 <div>
   <p>This is a paragraph inside a div.
 <!-- Console warning: Unclosed tag -->
-
+ <!-- BUG FIXED -> missing div closing tag, added a </div>. -->
+  </div>
 <!-- Incorrect: style attribute missing quotation marks -->
 <p style: color: red;>This text is red.</p>
 <!-- Console error: Invalid or unexpected token -->
