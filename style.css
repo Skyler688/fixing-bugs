@@ -4,7 +4,8 @@ p {
 }
 
 h1 {
-  fontsize: 23xp;
+  font-size: 23xp;
+  /* BUG FIXED -> font-size misspelled was (fontsize) missing the - between them. */
   color: purple;
 }
 
