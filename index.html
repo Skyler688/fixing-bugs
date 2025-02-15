@@ -32,11 +32,12 @@
 <!-- Incorrect: style attribute missing quotation marks -->
 <p style="color: red;">This text is red.</p>
 <!-- Console error: Invalid or unexpected token -->
- <!-- BUG FIXED -> style was missing "" and had : insted of =, changed from (style: color: red;) to (style="color: red;") -->
+ <!-- BUG FIXED -> style was missing "" and had : instead of =, changed from (style: color: red;) to (style="color: red;"). -->
 
 <!-- React-specific issue with incorrect attribute name -->
-<div clss="container">Hello World</div>
-<!-- Console error in React: Unknown DOM property "classnme" -->
+<div class="container">Hello World</div>
+<!-- Console error in React: Unknown DOM property "classname" -->
+ <!-- BUG FIXED -> div tags class was not spelled correct, was (clss="") changed to (class=""). -->
 
 
 <!-- Incorrect: Loading HTTP resource on an HTTPS page -->
