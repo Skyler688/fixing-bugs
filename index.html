@@ -37,14 +37,14 @@
 <!-- React-specific issue with incorrect attribute name -->
 <div class="container">Hello World</div>
 <!-- Console error in React: Unknown DOM property "classname" -->
- <!-- BUG FIXED -> div tags class was not spelled correct, was (clss="") changed to (class=""). -->
+ <!-- BUG FIXED -> div tag class was not spelled correct, was (clss="") changed to (class=""). -->
 
 
 <!-- Incorrect: Loading HTTP resource on an HTTPS page -->
 <!-- update this image to http://placehold.co/400x400 -->
-<img src="http://example.com/image.jpg" alt="Example Image">
+<img src="https://placehold.com/400x400.jpg" alt="Example Image">
 <!-- Console error: Mixed Content: The page was loaded over HTTPS, but requested an insecure image -->
-
+<!-- BUG FIXED img sorce must be https and (http://placehold.co/400x400) is missing the m in .com, as well as the .jpg at the end (https://placehold.com/400x400.jpg). -->
 
 
     <!-- include the JS file in the src string below this line -->
