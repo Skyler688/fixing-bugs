@@ -7,7 +7,8 @@ h1 {
   color: purple;
 }
 
-.contianer {
+/* Spelling error did not match the name on index.html, was (contianer) changed to (container). */
+.container {
   colro: red;
   width: 500px;
   height: 500px;
