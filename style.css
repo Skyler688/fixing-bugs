@@ -1,5 +1,6 @@
 p {
-  font-size: largeer; /* Console warning: Invalid property value */
+  font-size: larger; /* Console warning: Invalid property value */
+  /* BUG FIXED -> larger was spelled wrong (largeer) to (larger) */
 }
 
 h1 {
