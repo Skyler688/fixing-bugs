@@ -21,7 +21,8 @@
     </div>
 
 
-    <input type="text" id="output" placeholder="This is an output"/>
+    <input type="text" id="input" placeholder="This is an input"/>
+    <!-- not a bug but is confusing to name an input as output, changed name to input to help ovoid confusion and potential bugs -->
 
 <!-- Incorrect: missing closing </div> tag -->
 <div>
@@ -42,9 +43,9 @@
 
 <!-- Incorrect: Loading HTTP resource on an HTTPS page -->
 <!-- update this image to http://placehold.co/400x400 -->
-<img src="https://placehold.com/400x400.jpg" alt="Example Image">
+<img src="https://placehold.co/400x400" alt="Example Image">
 <!-- Console error: Mixed Content: The page was loaded over HTTPS, but requested an insecure image -->
-<!-- BUG FIXED -> img sorce must be https and (http://placehold.co/400x400) is missing the m in .com, as well as the .jpg at the end (https://placehold.com/400x400.jpg). -->
+<!-- BUG FIXED -> img sorce must be https to avoid mixed content issues. -->
 
 
     <!-- include the JS file in the src string below this line -->
