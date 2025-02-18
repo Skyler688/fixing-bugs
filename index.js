@@ -7,7 +7,8 @@ console.log(message); // SyntaxError: Unexpected token ';'
 
 // Incorrect: treating a string like a function
 const greeting = "Hello";
-greeting(); // TypeError: greeting is not a function
+console.log(greeting); // TypeError: greeting is not a function
+// BUG FIXED -> trying to call greeting as though it is a function, changed to console.log to print string into the console.
 
 // Incorrect: accessing a property of an undefined variable
 // There is no object and there is also no property in the object, look up objects in javascript on w3schools.
