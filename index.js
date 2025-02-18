@@ -32,5 +32,6 @@ console.log("User info: ", user);
 
 // casting failure (incorrect type conversion)
 
-let num = "10";
+let num = 10;
 console.log(num + 5); // "105"  should be 15.
+// BUG FIXED -> let num = "10"; makes num a string instead of an int. Got rid of the quotation around 10 to declare num as a int.
