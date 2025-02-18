@@ -12,8 +12,11 @@ console.log(greeting); // TypeError: greeting is not a function
 
 // Incorrect: accessing a property of an undefined variable
 // There is no object and there is also no property in the object, look up objects in javascript on w3schools.
-let obj;
+const obj = {
+  property: "This is an object property.",
+};
 console.log(obj.property); // TypeError: Cannot read property 'property' of undefined
+// BUG FIXED -> let obj; was undefined and had no property. Also when using objects it is best to use const to protect the object from being changed.
 
 const user = {
   name: "John",
