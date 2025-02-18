@@ -2,7 +2,8 @@ let message = "Hello, World!";
 console.log(message); // SyntaxError: Unexpected token ';'
 // BUG FIXED -> console.log was missing ) at the end.
 
-console.log(myVariable); // ReferenceError: myVariable is not defined
+// console.log(myVariable); // ReferenceError: myVariable is not defined
+// BUG FIXED -> (myVariable) not declared or used in this program so just commented it out.
 
 // Incorrect: treating a string like a function
 const greeting = "Hello";
