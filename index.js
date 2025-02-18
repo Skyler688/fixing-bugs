@@ -25,9 +25,10 @@ const user = {
 
 // Incorrect: Concatenating an object with a string
 // This there is a single difference, we can't use a + to add the string to this object, we need to use a comma.
-console.log("User info: " + user);
+console.log("User info: ", user);
 // Output: User info: [object Object]
 // should put out the object with names and age
+// BUG FIXED -> Changed + to , to be able to console.log the propertys inside of the user object.
 
 // casting failure (incorrect type conversion)
 
